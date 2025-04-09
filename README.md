@@ -6,7 +6,7 @@ ToDo:  </br>
 [x] Install Ruby on Rails  </br>
 [x] Install SQLlite  </br>
 [ ] Install Chart.js  </br>
-  Working on this one. It either needs a bundler like WebPacker or something of the genre. Documentation is a bit fuzzy and there are multiple gems. Almost getting there.
+  Working on this one. It either needs a bundler like WebPacker or something of the genre. Documentation is a bit fuzzy and there are multiple gems. Almost getting there. </br>
 [ ] Create Ruby Project  </br>
 [ ] Code Inventory Logic  </br>
 [ ] Create Inventory Form  </br>
