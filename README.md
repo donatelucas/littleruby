@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # LittleRuby
 A small proof of concept inventory management in Ruby on Rails, SQLite, and Chart.js
 
@@ -6,8 +5,10 @@ ToDo:  </br>
 [x] Github, make it public </br>
 [x] Install Ruby on Rails  </br>
 [x] Install SQLlite  </br>
+[x] Update database to Postgresql, necessary for Vercel </br>
 [ ] Install Chart.js  </br>
   Working on this one. It either needs a bundler like WebPacker or something of the genre. Documentation is a bit fuzzy and there are multiple gems. Almost getting there. </br>
+[ ] Get a fairly simple Ruby on Rails page up with some inventory addition options </br>
 [x] Create Ruby Project  </br>
 [ ] Add the project to Git before developing any code
 [x] Run server locally </br>
@@ -214,29 +215,3 @@ zeitwerk (2.7.2, 2.6.8)
 zlib (default: 3.0.0)
 
 
-=======
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
->>>>>>> a14b59f (Adding main branch to local repository)
