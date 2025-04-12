@@ -1,0 +1,12 @@
+{
+    "builds": [
+      {
+        "use": "rs"
+      }
+    ],
+    "env": {
+      "STAGING_PUBLIC_URL": "https://your-staging-site.vercel.com",
+      "PRODUCTION_PUBLIC_URL": "https://your-production-site.vercel.com"
+    },
+    "ignore": ["node_modules", ".git"]
+  }

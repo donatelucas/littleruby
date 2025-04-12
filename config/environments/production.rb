@@ -46,6 +46,9 @@ Rails.application.configure do
   # Don't log any deprecations.
   config.active_support.report_deprecations = false
 
+  # Precompiling it to make sure it works on Vercel
+  config.assets.precompile += ["chartkick.js", "chartkick.css"]
+
   # Replace the default in-process memory cache store with a durable alternative.
   # config.cache_store = :mem_cache_store
 
