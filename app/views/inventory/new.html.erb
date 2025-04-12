@@ -1,0 +1,32 @@
+<h1>Inventory Analysis</h1>
+
+<%= form_with(model: @inventory) do |form| %>
+  <div>
+    <%= form.label :item_name %>
+    <%= form.text_field :item_name %>
+  </div>
+
+  <div>
+    <%= form.label :purchase_price %>
+    <%= form.number_field :purchase_price %>
+  </div>
+
+  <div>
+    <%= form.label :selling_price %>
+    <%= form.number_field :selling_price %>
+  </div>
+
+  <div>
+    <%= form.label :quantity %>
+    <%= form.number_field :quantity %>
+  </div>
+
+  <div>
+    <%= form.label :storage_cost_per_item %>
+    <%= form.number_field :storage_cost_per_item %>
+  </div>
+
+  <div>
+    <%= form.submit "Analyze" %>
+  </div>
+<% end %>

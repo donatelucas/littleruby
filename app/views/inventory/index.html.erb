@@ -1,0 +1,19 @@
+<h1>Inventory List</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Item Name</th>
+      <th>ROI</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @inventories.each do |inventory| %>
+      <tr>
+        <td><%= inventory.item_name %></td>
+        <td><%= "#{inventory.roi}%" %></td>
+        <td><%= link_to "View", inventory_path(inventory) %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

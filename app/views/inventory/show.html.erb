@@ -1,0 +1,11 @@
+<h1>Inventory Details</h1>
+<p>Item Name: <%= @inventory.item_name %></p>
+<p>Purchase Price: <%= @inventory.purchase_price %></p>
+<p>Selling Price: <%= @inventory.selling_price %></p>
+<p>Quantity: <%= @inventory.quantity %></p>
+<p>Storage Cost Per Item: <%= @inventory.storage_cost_per_item %></p>
+<p>Total Cost: <%= @inventory.total_cost %></p>
+<p>Profit Margin: <%= @inventory.profit_margin %></p>
+<p>ROI: <%= @inventory.roi %>%</p>
+
+<%= link_to "Back to Index", inventory_path %>
